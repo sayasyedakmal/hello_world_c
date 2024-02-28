@@ -1,5 +1,5 @@
 /*
-    Access modifier or format specifier
+    Working with numbers
 */
 
 #include <stdio.h>
@@ -7,15 +7,9 @@
 
 int main()
 {
-    printf("My favorite %s is %d.","number", 200);
-
-    /*
-        Access modifier
-
-            %d = to print integer
-            %c = to print character
-            %s = to print string of character or array of character
-            %f = to print floating point number
-    */
+    printf("%f\n", pow(2,3));
+    printf("%f\n" ,sqrt(10));
+    printf("%f\n", ceil(12.3));
+    printf("%f\n", floor(2.31));
     return 0;
 }
