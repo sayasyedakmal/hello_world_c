@@ -3,12 +3,12 @@
 
 int main()
 {
-    char characterName[] = "Syed Akmal";
-    int characterAge = 36;
+    //data type and variable
+    int age = 12;
+    double height = 167.23;
+    float weight = 70.0;
+    char grade = 'A';
 
-    printf("There once was a man named %s\n", characterName);
-    printf("he was %d years old.\n", characterAge);
-    printf("He really liked the name %s\n", characterName);
-    printf("but did not like being %d.\n", characterAge);
+    char userName[] = "sayasyedakmal";
     return 0;
 }
