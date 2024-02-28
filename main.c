@@ -1,5 +1,7 @@
 /*
-    Working with numbers
+    Comments
+
+    - use comment sparingly - just use when only you want to use it - when you really need it
 */
 
 #include <stdio.h>
@@ -7,9 +9,9 @@
 
 int main()
 {
-    printf("%f\n", pow(2,3));
-    printf("%f\n" ,sqrt(10));
-    printf("%f\n", ceil(12.3));
-    printf("%f\n", floor(2.31));
+    /*
+        My Program
+    */
+    printf("Comments are fun");
     return 0;
 }
