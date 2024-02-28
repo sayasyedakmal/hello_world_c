@@ -1,7 +1,9 @@
 /*
-    Comments
+    Constant
 
-    - use comment sparingly - just use when only you want to use it - when you really need it
+    - cant be modified
+    - common practice - the const variable is written in UPPERCASE
+
 */
 
 #include <stdio.h>
@@ -9,9 +11,9 @@
 
 int main()
 {
-    /*
-        My Program
-    */
-    printf("Comments are fun");
+    const int NUM = 5;
+    printf("%d\n",NUM);
+    NUM = 8; //will throw error
+    printf("%d",NUM);
     return 0;
 }
